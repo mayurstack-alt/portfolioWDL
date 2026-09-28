@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Developer & Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Portfolio.</a>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero-section">
+    <div class="hero-content">
+      <span class="hero-tagline">Hello, I'm</span>
+      <h1 class="hero-title">A Software Engineer & Builder</h1>
+      <p class="hero-subtitle">Crafting robust full-stack applications, intelligent systems, and clean web experiences.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-desc">
+        Computer Engineering student passionate about distributed systems, modern web architectures, and applied machine learning. Experienced in designing end-to-end applications from database design to high-performance user interfaces.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section bg-alt">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <p>JavaScript, Python, C, Java, SQL</p>
+        </div>
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <p>React, Next.js, HTML5, CSS3, Tailwind CSS</p>
+        </div>
+        <div class="skill-card">
+          <h3>Backend & DB</h3>
+          <p>Node.js, Express, Fastify, Supabase, PostgreSQL</p>
+        </div>
+        <div class="skill-card">
+          <h3>Tools & Dev</h3>
+          <p>Git, GitHub, VS Code, Postman, Linux</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-content">
+            <span class="project-badge">Full-Stack / AI</span>
+            <h3>Crowd Density & Risk Assessor</h3>
+            <p>Predictive analytics platform utilizing machine learning models to forecast venue congestion and assess safety bottlenecks in real time.</p>
+            <div class="project-tags">
+              <span>Next.js</span><span>FastAPI</span><span>Supabase</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-content">
+            <span class="project-badge">Systems Visualization</span>
+            <h3>OS Resource Allocation Graph Visualizer</h3>
+            <p>Interactive web simulation designed to model process resource requests, hold states, and detect deadlocks using graph cycle algorithms.</p>
+            <div class="project-tags">
+              <span>React</span><span>Tailwind CSS</span><span>Algorithms</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-content">
+            <span class="project-badge">Web Application</span>
+            <h3>Academic Metrics & Evaluation System</h3>
+            <p>Comprehensive grading and evaluation portal featuring secure authentication, automated calculation pipelines, and student progress metrics.</p>
+            <div class="project-tags">
+              <span>Node.js</span><span>Express</span><span>PostgreSQL</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section bg-alt">
+    <div class="container contact-container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-desc">Open for internships, technical collaborations, and interesting software engineering opportunities.</p>
+      <div class="contact-links">
+        <a href="https://github.com" target="_blank" class="btn btn-secondary">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" class="btn btn-secondary">LinkedIn</a>
+        <a href="mailto:student@example.com" class="btn btn-primary">Email Me</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Portfolio. Hosted with GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
